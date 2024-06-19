@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KinVixCkyth7+8zJU0CWidnaV0dhwUY2RWJ5uanZBec=",
+  "Hash": "im1P137nPlO66CJxdthMvni5baPN4T2Ainw1MocYPog=",
   "Source": "Api_Fiorella_HomeTask",
   "BasePath": "_content/Api_Fiorella_HomeTask",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\API-Fiorella\\Api_Fiorella_HomeTask\\Api_Fiorella_HomeTask\\wwwroot\\img\\6054b983-f8d1-4ba0-b8d3-511b37411cd6-instagram4.jpg",
+      "SourceId": "Api_Fiorella_HomeTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\API-Fiorella\\Api_Fiorella_HomeTask\\Api_Fiorella_HomeTask\\wwwroot\\",
+      "BasePath": "_content/Api_Fiorella_HomeTask",
+      "RelativePath": "img/6054b983-f8d1-4ba0-b8d3-511b37411cd6-instagram4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\6054b983-f8d1-4ba0-b8d3-511b37411cd6-instagram4.jpg"
+    },
     {
       "Identity": "C:\\Users\\user\\Desktop\\API-Fiorella\\Api_Fiorella_HomeTask\\Api_Fiorella_HomeTask\\wwwroot\\img\\8bdb190e-2b42-4ece-9f55-db4df80dd0dc-h3-team-img-1.png",
       "SourceId": "Api_Fiorella_HomeTask",
@@ -34,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\8bdb190e-2b42-4ece-9f55-db4df80dd0dc-h3-team-img-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\API-Fiorella\\Api_Fiorella_HomeTask\\Api_Fiorella_HomeTask\\wwwroot\\img\\99476ba0-05d3-4219-a9db-9acbd979ee7f-h3-slider-background-3.jpg",
+      "SourceId": "Api_Fiorella_HomeTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\API-Fiorella\\Api_Fiorella_HomeTask\\Api_Fiorella_HomeTask\\wwwroot\\",
+      "BasePath": "_content/Api_Fiorella_HomeTask",
+      "RelativePath": "img/99476ba0-05d3-4219-a9db-9acbd979ee7f-h3-slider-background-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\99476ba0-05d3-4219-a9db-9acbd979ee7f-h3-slider-background-3.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\API-Fiorella\\Api_Fiorella_HomeTask\\Api_Fiorella_HomeTask\\wwwroot\\img\\blog-feature-img-1.jpg",

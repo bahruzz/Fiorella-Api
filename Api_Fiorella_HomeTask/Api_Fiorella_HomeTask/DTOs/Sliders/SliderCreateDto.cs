@@ -2,7 +2,7 @@
 {
     public class SliderCreateDto
     {
-        public string? Image { get; set; }
+       
         public List<IFormFile> Images { get; set; }
     }
 }

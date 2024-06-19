@@ -68,3 +68,4 @@ C:\Users\user\Desktop\API-Fiorella\Api_Fiorella_HomeTask\Api_Fiorella_HomeTask\o
 C:\Users\user\Desktop\API-Fiorella\Api_Fiorella_HomeTask\Api_Fiorella_HomeTask\obj\Debug\net6.0\Api_Fiorella_HomeTask.genruntimeconfig.cache
 C:\Users\user\Desktop\API-Fiorella\Api_Fiorella_HomeTask\Api_Fiorella_HomeTask\obj\Debug\net6.0\ref\Api_Fiorella_HomeTask.dll
 C:\Users\user\Desktop\API-Fiorella\Api_Fiorella_HomeTask\Api_Fiorella_HomeTask\bin\Debug\net6.0\Api_Fiorella_HomeTask.staticwebassets.runtime.json
+C:\Users\user\Desktop\API-Fiorella\Api_Fiorella_HomeTask\Api_Fiorella_HomeTask\obj\Debug\net6.0\Api_Fiorella_HomeTask.sourcelink.json

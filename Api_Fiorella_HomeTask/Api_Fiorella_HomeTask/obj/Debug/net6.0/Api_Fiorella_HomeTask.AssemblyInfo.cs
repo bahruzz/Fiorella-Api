@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Api_Fiorella_HomeTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8511501485e957551152b2000bff1d05818358ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("Api_Fiorella_HomeTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Api_Fiorella_HomeTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

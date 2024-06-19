@@ -7,6 +7,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Metadata;
 
 namespace Api_Fiorella_HomeTask.Controllers
 {
@@ -34,7 +35,7 @@ namespace Api_Fiorella_HomeTask.Controllers
                 if (!item.CheckFileType("image/"))
                 {
                     ModelState.AddModelError("Image", "Input can accept only image format");
-                    return BadRequest();
+                    return BadRequest(ModelState);
                 }
 
                 if (!item.CheckFileSize(200))
@@ -51,10 +52,13 @@ namespace Api_Fiorella_HomeTask.Controllers
                 string path = _env.GenerateFilePath("img", fileName);
 
                 await item.SaveFileToLocalAsync(path);
-                request.Image = fileName;
+                Slider slider = _mapper.Map<Slider>(request);
+                slider.Image = fileName;
+                await _context.Sliders.AddAsync(slider);
             }
- 
-            await _context.Sliders.AddAsync(_mapper.Map<Slider>(request));
+
+            //await _context.Sliders.AddAsync(_mapper.Map<Slider>(request));
+           
             await _context.SaveChangesAsync();
             return CreatedAtAction(nameof(Create), request);
         }
@@ -106,14 +110,14 @@ namespace Api_Fiorella_HomeTask.Controllers
                 if (!request.NewImage.CheckFileType("image/"))
                 {
                     ModelState.AddModelError("NewImage", "Input can accept only image format");
-                    request.Image = entity.Image;
+                   
                     return BadRequest();
                 }
 
                 if (!request.NewImage.CheckFileSize(200))
                 {
                     ModelState.AddModelError("NewImage", "Image size must be max 200 KB");
-                    request.Image = entity.Image;
+                   
                     return BadRequest();
                 }
             }
@@ -129,7 +133,7 @@ namespace Api_Fiorella_HomeTask.Controllers
 
                 await request.NewImage.SaveFileToLocalAsync(newPath);
 
-                request.Image = fileName;
+                entity.Image = fileName;
             }
 
             _mapper.Map(request, entity);

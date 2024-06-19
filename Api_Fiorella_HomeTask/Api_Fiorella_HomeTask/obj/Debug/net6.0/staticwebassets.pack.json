@@ -1,8 +1,16 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\user\\Desktop\\API-Fiorella\\Api_Fiorella_HomeTask\\Api_Fiorella_HomeTask\\wwwroot\\img\\6054b983-f8d1-4ba0-b8d3-511b37411cd6-instagram4.jpg",
+      "PackagePath": "staticwebassets\\img\\6054b983-f8d1-4ba0-b8d3-511b37411cd6-instagram4.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\Desktop\\API-Fiorella\\Api_Fiorella_HomeTask\\Api_Fiorella_HomeTask\\wwwroot\\img\\8bdb190e-2b42-4ece-9f55-db4df80dd0dc-h3-team-img-1.png",
       "PackagePath": "staticwebassets\\img\\8bdb190e-2b42-4ece-9f55-db4df80dd0dc-h3-team-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\API-Fiorella\\Api_Fiorella_HomeTask\\Api_Fiorella_HomeTask\\wwwroot\\img\\99476ba0-05d3-4219-a9db-9acbd979ee7f-h3-slider-background-3.jpg",
+      "PackagePath": "staticwebassets\\img\\99476ba0-05d3-4219-a9db-9acbd979ee7f-h3-slider-background-3.jpg"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\API-Fiorella\\Api_Fiorella_HomeTask\\Api_Fiorella_HomeTask\\wwwroot\\img\\blog-feature-img-1.jpg",
